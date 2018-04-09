@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--dialog样式-->
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <!--弹出框的背景，可以自己做一张图片命名为panel_background.9.png-->
+        <item name="android:windowBackground">@drawable/shape_corners_bg_white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+</resources>
